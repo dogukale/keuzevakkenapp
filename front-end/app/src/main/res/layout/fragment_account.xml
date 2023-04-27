@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbarThumbHorizontal="@null"
+        android:scrollbarThumbVertical="@null">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="32dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/hsleiden" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:text="@string/headerLogin"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="0dp">
+
+                <EditText
+                    android:id="@+id/nameValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/menu_person"
+                    android:drawableLeft="@drawable/menu_person"
+                    android:drawablePadding="12dp"
+                    android:hint="@string/placeholderEmail"
+                    android:imeOptions="actionNext"
+                    android:minWidth="320dp"
+                    android:minHeight="50dp"
+                    android:singleLine="true" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="0dp">
+
+                <EditText
+                    android:id="@+id/passwordValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/ic_lock"
+                    android:drawableLeft="@drawable/ic_lock"
+                    android:drawablePadding="12dp"
+                    android:hint="@string/placeholderPass"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    android:minWidth="320dp"
+                    android:minHeight="50dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/signIn"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_button_login"
+                android:padding="10dp"
+                android:text="@string/buttonLogin"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

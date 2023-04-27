@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/menu_home"
+        android:title="@string/first_menu" />
+    <item
+        android:id="@+id/keuzevakFragment"
+        android:icon="@drawable/menu_school"
+        android:title="@string/second_menu" />
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/menu_person"
+        android:title="@string/third_menu" />
+</menu>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_card_detail"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_navigate_back" />
+
+            <TextView
+                android:id="@+id/detailSpec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="10dp"
+                android:text="@string/vakSpec"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/detailNaam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vakNaam"
+                android:textColor="@color/headerColor"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/detailDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="10dp"
+                android:text="@string/vakDesc"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_border_bottom"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vakCodeExample"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/detailCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/vakCode"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_border_bottom"
+                android:padding="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vakCreditsExample"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/detailCredits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/vakCredits"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/applyButton"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="22dp"
+                android:background="@drawable/bg_button_detail"
+                android:text="@string/apply"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

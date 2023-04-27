@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Keuzevakkenapp</string>
+
+    <!-- Welkom heten -->
+    <string name="homePrefix">Keuzevakkenapp</string>
+    <string name="homeTitle">Welkom student!</string>
+    <string name="homeDesc">In het eerste jaar hebben wij een specialisatie gekozen om daarin te verdiepen, maar dat laat ons niet stoppen om over de grenzen van de eigen opleiding heen te kijken en invulling te geven aan specifieke leerbehoeften. De variatie in keuzecursussen is enorm. Jij kan straks ook verdiepen in andere specialisaties om te kijken hoe dat in elkaar zit. Hoe vet is dat? Schrijf je dan nu in voor een keuzevak!</string>
+
+    <!-- Navigatie fragmenten -->
+    <string name="textHome">Home</string>
+    <string name="textKeuzevak">Keuzevak</string>
+    <string name="textKeuzevakken">Keuzevakken</string>
+    <string name="textAccount">Account</string>
+    <string name="textKeuzevakDesc">Schrijf je in voor een keuzevak</string>
+    <string name="textAccountDesc">Log in en bekijk je inschrijvingen</string>
+
+    <!-- Menu titels -->
+    <string name="first_menu">Home</string>
+    <string name="second_menu">Keuzevak</string>
+    <string name="third_menu">Account</string>
+
+    <!-- Example Text -->
+    <string name="vakCode">ITRAPP</string>
+    <string name="vakNaam">Taal in Rapporteren</string>
+    <string name="vakDesc">Student weet hoe hij schrijftaken moet aanpakken. Student onderscheidt begrippen, doelgroep, kader van tekst, probleemstelling, enz. en kan deze toepassen. Student verbetert verder (vooral) de schrijfproducten wat betreft de opbouw, de formulering, de werkwoordspelling, de interpunctie en de leesbaarheid. Student kan lijst van geraadpleegde literatuur opstellen.</string>
+    <string name="vakCredits">3</string>
+    <string name="vakSpec">Algemeen</string>
+
+    <string name="vakCodeExample">Vakcode</string>
+    <string name="vakCreditsExample">Aantal EC</string>
+
+    <string name="apply">Inschrijven</string>
+
+    <!--  Variabelen login scherm  -->
+    <string name="headerLogin">Log in op HSL</string>
+    <string name="fillInName">E-mailadres</string>
+    <string name="fillInPass">Wachtwoord</string>
+    <string name="placeholderEmail">E-mailadres</string>
+    <string name="placeholderPass">Wachtwoord</string>
+    <string name="forgotPass">Wachtwoord vergeten?</string>
+    <string name="buttonLogin">Inloggen</string>
+
+    <!--  Variables Logged in User  -->
+    <string name="userName">Hallo Gebruiker</string>
+    <string name="userDesc">Wij zijn momenteel druk bezig om je inschrijvingen in kaar te brengen in de app. Om tijdelijk je inschrijvingen te zien voor een keuzevak, raadpleeg dan de desktop keuzevakkenapp om daar je inschrijvingen te wijzigen. Bedankt voor het meedenken!</string>
+    <string name="logOut">Uitloggen</string>
+</resources>
